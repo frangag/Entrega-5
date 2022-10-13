@@ -1,0 +1,33 @@
+/* .container {
+    max-width: 80%;
+    background-color: blue;
+} */
+
+/* large */
+@media (min-width: 992px) { 
+.navbar-brand{
+   visibility: visible;
+}
+}
+
+/* medium */
+@media (min-width: 768px) {
+.container{
+  
+}
+}
+
+/* small */
+@media (min-width: 576px) {
+.container{
+   
+}
+}
+
+.container-fluid {
+    background-color: grey;
+}
+
+.navbar-brand{
+    align-items: baseline;
+}
